@@ -1,3 +1,55 @@
 .m-bg-primary{
-  background-color: #FFBFBF;
+  background-color: #B31312 !important;
 }
+
+.c-primary{
+  color: #B31312;
+}
+
+.btn-primary{
+  border-color: #B31312;
+  width: 120px;
+}
+
+/* NAVBAR */
+.nav-menu-line{
+  width: 100%;
+  border-top: 1px solid #C3BCAA;
+}
+
+.navbar-menu{
+  font-size: 18px;
+  color: #C3BCAA
+}
+
+.active{
+  color: #FFF !important;
+}
+/* END NAVBAR */
+
+/* BANNER */
+.banner-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+  height: 320px;
+  margin: auto;
+  margin-top: 80px;
+  background-color: #527853;
+}
+
+.banner-text-wrapper{
+  width: max-content;
+  padding: 12px;
+  margin-right: 48px;
+  margin-left: 120px;
+}
+
+.btn-banner{
+  top: 70%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+/* END BANNER */

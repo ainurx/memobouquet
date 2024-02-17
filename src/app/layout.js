@@ -1,9 +1,9 @@
-import { Inter } from 'next/font/google'
+import { Playfair_Display } from 'next/font/google'
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainNavbar from './components/MainNavbar'
 
-const inter = Inter({ subsets: ['latin'] })
+const playfair_Display = Playfair_Display({ weight: ['400'], subsets: ['latin'] })
 
 export const metadata = {
   title: 'memo.bouquet',
@@ -12,8 +12,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" style={{ fontFamily: playfair_Display.style.fontFamily }}>
+      <body className={playfair_Display.className}>
         <MainNavbar/>
         {children}
       </body>
